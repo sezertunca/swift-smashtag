@@ -16,6 +16,7 @@
 		ACD22C841CFC325B00B0D209 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD22C801CFC325B00B0D209 /* Tweet.swift */; };
 		ACD22C851CFC325B00B0D209 /* TwitterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD22C811CFC325B00B0D209 /* TwitterRequest.swift */; };
 		ACD22C861CFC325B00B0D209 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD22C821CFC325B00B0D209 /* User.swift */; };
+		ACD22C881CFC38FB00B0D209 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD22C871CFC38FB00B0D209 /* TweetTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ACD22C801CFC325B00B0D209 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		ACD22C811CFC325B00B0D209 /* TwitterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterRequest.swift; sourceTree = "<group>"; };
 		ACD22C821CFC325B00B0D209 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ACD22C871CFC38FB00B0D209 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				ACC5BAE11CFB6BCE00FD24AF /* Main.storyboard */,
 				ACC5BAF01CFB6C0F00FD24AF /* TweetTableViewController.swift */,
+				ACD22C871CFC38FB00B0D209 /* TweetTableViewCell.swift */,
 				ACC5BAF41CFB6C9E00FD24AF /* Twitter */,
 				ACC5BAEF1CFB6BE500FD24AF /* Supporting Files */,
 			);
@@ -169,6 +172,7 @@
 				ACC5BAF11CFB6C0F00FD24AF /* TweetTableViewController.swift in Sources */,
 				ACD22C831CFC325B00B0D209 /* MediaItem.swift in Sources */,
 				ACD22C841CFC325B00B0D209 /* Tweet.swift in Sources */,
+				ACD22C881CFC38FB00B0D209 /* TweetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

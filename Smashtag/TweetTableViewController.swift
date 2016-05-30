@@ -65,6 +65,8 @@ class TweetTableViewController: UITableViewController
     {
         super.viewDidLoad()
         searchText = "#stanford"
+        tableView.estimatedRowHeight = tableView.rowHeight
+        tableView.rowHeight = UITableViewAutomaticDimension
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int
@@ -89,8 +91,10 @@ class TweetTableViewController: UITableViewController
         
         let tweet = tweets[indexPath.section][indexPath.row]
         
-        cell.textLabel?.text = tweet.text
-        cell.detailTextLabel?.text = tweet.user.name
+        if let tweetCell = cell as? TweetTableViewCell
+        {
+            tweetCell.tweet = tweet
+        }
         return cell
     }
 
